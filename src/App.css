@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.ui.link.cards .card, a.ui.card {
+  transform: none;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.ui.cards>.card>.image {
+  height: 200px;
+  position: relative;
+  display: block;
+  flex: 0 0 auto;
+  padding: 0;
+  background: rgba(0,0,0,.05);
+  /* padding: 20px; */
+  max-width: 100%;
+  max-height: min-content;
+}
+
+ui.menu.fixed, .ui.menu.fixed .item:first-child, .ui.menu.fixed .item:last-child {
+  border-radius: 0!important;
+  padding: 20px;
+}
+
+.ui.placeholder.segment {
+  margin-top: 50px;;
+}
